@@ -1,0 +1,20 @@
+.cell, .cellOpen {
+    border-right: 1px solid #444;
+    width: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #444; 
+}
+
+.cellOpen {
+    background-color: #d4d4d4; 
+}
+
+.cell:hover {
+    background-color: #a5a2a2; 
+}
+
+.cell:last-child, .cellOpen:last-child {
+    border-right: none; 
+}
